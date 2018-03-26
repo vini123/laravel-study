@@ -15,4 +15,8 @@ class PagesController extends Controller
         Log::notice('仿佛有痛楚。如果我晕眩，那是因为幻觉丰盛，能量薄弱。足以支持我对你的迷恋，不够支持我们的快乐。');
         return 'log is created';
     }
+
+    public function b1(){
+        return view('bootcss/b1');
+    }
 }

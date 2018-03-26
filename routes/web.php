@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 
 Route::get('log', 'PagesController@log')->name('log');
+
+Route::get('b1', 'PagesController@b1')->name('b1');
